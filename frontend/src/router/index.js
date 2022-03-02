@@ -35,7 +35,7 @@ const routes = [
     name: "Wall",
     component: () => import("../views/Wall.vue"),
     meta: {
-      title: "Groupomania - Fil d’actualité",
+      title: "Groupomania - Mur",
       requiresAuth: true, // Authentification requise, cf fonction beforeEach plus bas
     },
 
